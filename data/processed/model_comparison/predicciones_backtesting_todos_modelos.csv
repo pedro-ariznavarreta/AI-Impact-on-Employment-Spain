@@ -1,0 +1,641 @@
+periodo,period_date,cno_major,cno_title,actual,modelo,prediccion
+2024T1,2024-03-31,0,Ocupaciones militares,-0.782778864970643,Regresion lineal,1.9271514468574875
+2024T1,2024-03-31,1,Directores y gerentes,3.5353535353535324,Regresion lineal,1.502754737711656
+2024T1,2024-03-31,2,Técnicos y profesionales científicos e intelectuales,1.366837908830986,Regresion lineal,0.06721458446979808
+2024T1,2024-03-31,3,"Técnicos, profesionales de apoyo",2.0438586167666988,Regresion lineal,-0.1836446760734786
+2024T1,2024-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",2.1364087536040213,Regresion lineal,1.0118185665514254
+2024T1,2024-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.648242108571685,Regresion lineal,1.7470681153678174
+2024T1,2024-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-0.7332071901608379,Regresion lineal,2.4327337244257228
+2024T1,2024-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-0.0306788797826102,Regresion lineal,1.0012753284701228
+2024T1,2024-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",-1.2579002270356507,Regresion lineal,0.37832384916299044
+2024T1,2024-03-31,9,Ocupaciones elementales,4.357332500390457,Regresion lineal,1.5704346349703506
+2024T1,2024-03-31,0,Ocupaciones militares,-0.782778864970643,Ridge,0.8937948908772643
+2024T1,2024-03-31,1,Directores y gerentes,3.5353535353535324,Ridge,0.9209018233322713
+2024T1,2024-03-31,2,Técnicos y profesionales científicos e intelectuales,1.366837908830986,Ridge,1.7751809206543192
+2024T1,2024-03-31,3,"Técnicos, profesionales de apoyo",2.0438586167666988,Ridge,1.428523516411376
+2024T1,2024-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",2.1364087536040213,Ridge,1.1467758652898061
+2024T1,2024-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.648242108571685,Ridge,1.3563625057657787
+2024T1,2024-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-0.7332071901608379,Ridge,0.7849242328729634
+2024T1,2024-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-0.0306788797826102,Ridge,0.9614431704222303
+2024T1,2024-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",-1.2579002270356507,Ridge,1.1146339005316677
+2024T1,2024-03-31,9,Ocupaciones elementales,4.357332500390457,Ridge,1.315719464449768
+2024T1,2024-03-31,0,Ocupaciones militares,-0.782778864970643,Elastic Net,1.0575060869364368
+2024T1,2024-03-31,1,Directores y gerentes,3.5353535353535324,Elastic Net,1.0583836530066921
+2024T1,2024-03-31,2,Técnicos y profesionales científicos e intelectuales,1.366837908830986,Elastic Net,1.9556862609397705
+2024T1,2024-03-31,3,"Técnicos, profesionales de apoyo",2.0438586167666988,Elastic Net,1.5490343514464064
+2024T1,2024-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",2.1364087536040213,Elastic Net,1.2649955600071798
+2024T1,2024-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.648242108571685,Elastic Net,1.4958447207097396
+2024T1,2024-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-0.7332071901608379,Elastic Net,0.9121348139786943
+2024T1,2024-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-0.0306788797826102,Elastic Net,1.1178975451082334
+2024T1,2024-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",-1.2579002270356507,Elastic Net,1.2058449047371433
+2024T1,2024-03-31,9,Ocupaciones elementales,4.357332500390457,Elastic Net,1.480927426804114
+2024T1,2024-03-31,0,Ocupaciones militares,-0.782778864970643,Random Forest,0.3774375987222099
+2024T1,2024-03-31,1,Directores y gerentes,3.5353535353535324,Random Forest,0.8339575930037268
+2024T1,2024-03-31,2,Técnicos y profesionales científicos e intelectuales,1.366837908830986,Random Forest,0.6969064955763794
+2024T1,2024-03-31,3,"Técnicos, profesionales de apoyo",2.0438586167666988,Random Forest,0.9046578008090439
+2024T1,2024-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",2.1364087536040213,Random Forest,1.189206108380666
+2024T1,2024-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.648242108571685,Random Forest,1.6422052357884305
+2024T1,2024-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-0.7332071901608379,Random Forest,0.6335558150734857
+2024T1,2024-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-0.0306788797826102,Random Forest,1.0593930124392366
+2024T1,2024-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",-1.2579002270356507,Random Forest,0.651935646292462
+2024T1,2024-03-31,9,Ocupaciones elementales,4.357332500390457,Random Forest,0.8621055551832917
+2024T1,2024-03-31,0,Ocupaciones militares,-0.782778864970643,Gradient Boosting,0.6623018579000548
+2024T1,2024-03-31,1,Directores y gerentes,3.5353535353535324,Gradient Boosting,0.6637436739510433
+2024T1,2024-03-31,2,Técnicos y profesionales científicos e intelectuales,1.366837908830986,Gradient Boosting,0.529777691492992
+2024T1,2024-03-31,3,"Técnicos, profesionales de apoyo",2.0438586167666988,Gradient Boosting,0.8093487155148409
+2024T1,2024-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",2.1364087536040213,Gradient Boosting,1.120794862579946
+2024T1,2024-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.648242108571685,Gradient Boosting,1.5935232823269767
+2024T1,2024-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-0.7332071901608379,Gradient Boosting,0.675117069707691
+2024T1,2024-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-0.0306788797826102,Gradient Boosting,0.7785036549764082
+2024T1,2024-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",-1.2579002270356507,Gradient Boosting,0.5299863765298992
+2024T1,2024-03-31,9,Ocupaciones elementales,4.357332500390457,Gradient Boosting,0.859829371692413
+2024T1,2024-03-31,0,Ocupaciones militares,-0.782778864970643,Crecimiento cero,0.0
+2024T1,2024-03-31,1,Directores y gerentes,3.5353535353535324,Crecimiento cero,0.0
+2024T1,2024-03-31,2,Técnicos y profesionales científicos e intelectuales,1.366837908830986,Crecimiento cero,0.0
+2024T1,2024-03-31,3,"Técnicos, profesionales de apoyo",2.0438586167666988,Crecimiento cero,0.0
+2024T1,2024-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",2.1364087536040213,Crecimiento cero,0.0
+2024T1,2024-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.648242108571685,Crecimiento cero,0.0
+2024T1,2024-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-0.7332071901608379,Crecimiento cero,0.0
+2024T1,2024-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-0.0306788797826102,Crecimiento cero,0.0
+2024T1,2024-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",-1.2579002270356507,Crecimiento cero,0.0
+2024T1,2024-03-31,9,Ocupaciones elementales,4.357332500390457,Crecimiento cero,0.0
+2024T1,2024-03-31,0,Ocupaciones militares,-0.782778864970643,Persistencia trimestral,6.126687435098654
+2024T1,2024-03-31,1,Directores y gerentes,3.5353535353535324,Persistencia trimestral,-3.031716417910446
+2024T1,2024-03-31,2,Técnicos y profesionales científicos e intelectuales,1.366837908830986,Persistencia trimestral,0.8273566774480656
+2024T1,2024-03-31,3,"Técnicos, profesionales de apoyo",2.0438586167666988,Persistencia trimestral,1.303501172356225
+2024T1,2024-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",2.1364087536040213,Persistencia trimestral,0.2653902658641627
+2024T1,2024-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.648242108571685,Persistencia trimestral,-1.471011126595434
+2024T1,2024-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-0.7332071901608379,Persistencia trimestral,-1.4681892332789603
+2024T1,2024-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-0.0306788797826102,Persistencia trimestral,-0.5881840362495616
+2024T1,2024-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",-1.2579002270356507,Persistencia trimestral,-1.6416198925704673
+2024T1,2024-03-31,9,Ocupaciones elementales,4.357332500390457,Persistencia trimestral,-3.0215827338129557
+2024T2,2024-06-30,0,Ocupaciones militares,-4.437869822485207,Regresion lineal,1.9437428520575406
+2024T2,2024-06-30,1,Directores y gerentes,0.0,Regresion lineal,0.6115025896124824
+2024T2,2024-06-30,2,Técnicos y profesionales científicos e intelectuales,-2.639484486435652,Regresion lineal,-0.13700251929644588
+2024T2,2024-06-30,3,"Técnicos, profesionales de apoyo",0.0807319698600785,Regresion lineal,-0.2872992828980221
+2024T2,2024-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",2.943218103567953,Regresion lineal,1.1100735639308492
+2024T2,2024-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.421643165031304,Regresion lineal,1.0165477867886847
+2024T2,2024-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",0.2144388849178065,Regresion lineal,2.688777354030257
+2024T2,2024-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.113108285839536,Regresion lineal,1.2747278667486956
+2024T2,2024-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",2.019637086751181,Regresion lineal,0.6533534424322202
+2024T2,2024-06-30,9,Ocupaciones elementales,-0.0411553427117765,Regresion lineal,0.8152062000585277
+2024T2,2024-06-30,0,Ocupaciones militares,-4.437869822485207,Ridge,1.0931053058206233
+2024T2,2024-06-30,1,Directores y gerentes,0.0,Ridge,0.41897077372711383
+2024T2,2024-06-30,2,Técnicos y profesionales científicos e intelectuales,-2.639484486435652,Ridge,1.713890018704624
+2024T2,2024-06-30,3,"Técnicos, profesionales de apoyo",0.0807319698600785,Ridge,1.4696223732177802
+2024T2,2024-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",2.943218103567953,Ridge,1.2617163576509576
+2024T2,2024-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.421643165031304,Ridge,1.0768643481327975
+2024T2,2024-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",0.2144388849178065,Ridge,0.9085655208600677
+2024T2,2024-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.113108285839536,Ridge,1.1041220214780172
+2024T2,2024-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",2.019637086751181,Ridge,1.182569128790124
+2024T2,2024-06-30,9,Ocupaciones elementales,-0.0411553427117765,Ridge,0.9984804252327378
+2024T2,2024-06-30,0,Ocupaciones militares,-4.437869822485207,Elastic Net,1.2548450254222192
+2024T2,2024-06-30,1,Directores y gerentes,0.0,Elastic Net,0.4041513203271303
+2024T2,2024-06-30,2,Técnicos y profesionales científicos e intelectuales,-2.639484486435652,Elastic Net,1.8943603332892514
+2024T2,2024-06-30,3,"Técnicos, profesionales de apoyo",0.0807319698600785,Elastic Net,1.6142899299166613
+2024T2,2024-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",2.943218103567953,Elastic Net,1.4018880548845103
+2024T2,2024-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.421643165031304,Elastic Net,1.167601444830668
+2024T2,2024-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",0.2144388849178065,Elastic Net,1.066640159127915
+2024T2,2024-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.113108285839536,Elastic Net,1.2980396914686556
+2024T2,2024-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",2.019637086751181,Elastic Net,1.3224910987011032
+2024T2,2024-06-30,9,Ocupaciones elementales,-0.0411553427117765,Elastic Net,1.0971272463521111
+2024T2,2024-06-30,0,Ocupaciones militares,-4.437869822485207,Random Forest,-0.31525164791185034
+2024T2,2024-06-30,1,Directores y gerentes,0.0,Random Forest,0.3236398766103702
+2024T2,2024-06-30,2,Técnicos y profesionales científicos e intelectuales,-2.639484486435652,Random Forest,0.6399612024372725
+2024T2,2024-06-30,3,"Técnicos, profesionales de apoyo",0.0807319698600785,Random Forest,0.6924105037003901
+2024T2,2024-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",2.943218103567953,Random Forest,0.8520411277144667
+2024T2,2024-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.421643165031304,Random Forest,1.2890394645785748
+2024T2,2024-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",0.2144388849178065,Random Forest,0.3219814503313557
+2024T2,2024-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.113108285839536,Random Forest,0.6090002951741982
+2024T2,2024-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",2.019637086751181,Random Forest,0.7001545534429823
+2024T2,2024-06-30,9,Ocupaciones elementales,-0.0411553427117765,Random Forest,0.6884392430258307
+2024T2,2024-06-30,0,Ocupaciones militares,-4.437869822485207,Gradient Boosting,0.4656172399216705
+2024T2,2024-06-30,1,Directores y gerentes,0.0,Gradient Boosting,0.19614093189249338
+2024T2,2024-06-30,2,Técnicos y profesionales científicos e intelectuales,-2.639484486435652,Gradient Boosting,0.7308726074827866
+2024T2,2024-06-30,3,"Técnicos, profesionales de apoyo",0.0807319698600785,Gradient Boosting,0.8856012596490401
+2024T2,2024-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",2.943218103567953,Gradient Boosting,0.8856012596490401
+2024T2,2024-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.421643165031304,Gradient Boosting,1.66502246379853
+2024T2,2024-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",0.2144388849178065,Gradient Boosting,0.9247496224996814
+2024T2,2024-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.113108285839536,Gradient Boosting,0.6178338827606278
+2024T2,2024-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",2.019637086751181,Gradient Boosting,0.8361557886567976
+2024T2,2024-06-30,9,Ocupaciones elementales,-0.0411553427117765,Gradient Boosting,0.9661820029624459
+2024T2,2024-06-30,0,Ocupaciones militares,-4.437869822485207,Crecimiento cero,0.0
+2024T2,2024-06-30,1,Directores y gerentes,0.0,Crecimiento cero,0.0
+2024T2,2024-06-30,2,Técnicos y profesionales científicos e intelectuales,-2.639484486435652,Crecimiento cero,0.0
+2024T2,2024-06-30,3,"Técnicos, profesionales de apoyo",0.0807319698600785,Crecimiento cero,0.0
+2024T2,2024-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",2.943218103567953,Crecimiento cero,0.0
+2024T2,2024-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.421643165031304,Crecimiento cero,0.0
+2024T2,2024-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",0.2144388849178065,Crecimiento cero,0.0
+2024T2,2024-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.113108285839536,Crecimiento cero,0.0
+2024T2,2024-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",2.019637086751181,Crecimiento cero,0.0
+2024T2,2024-06-30,9,Ocupaciones elementales,-0.0411553427117765,Crecimiento cero,0.0
+2024T2,2024-06-30,0,Ocupaciones militares,-4.437869822485207,Persistencia trimestral,-0.7827788649706457
+2024T2,2024-06-30,1,Directores y gerentes,0.0,Persistencia trimestral,3.535353535353525
+2024T2,2024-06-30,2,Técnicos y profesionales científicos e intelectuales,-2.639484486435652,Persistencia trimestral,1.3668379088309868
+2024T2,2024-06-30,3,"Técnicos, profesionales de apoyo",0.0807319698600785,Persistencia trimestral,2.0438586167667028
+2024T2,2024-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",2.943218103567953,Persistencia trimestral,2.1364087536040133
+2024T2,2024-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.421643165031304,Persistencia trimestral,3.6482421085716874
+2024T2,2024-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",0.2144388849178065,Persistencia trimestral,-0.7332071901608339
+2024T2,2024-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.113108285839536,Persistencia trimestral,-0.0306788797826085
+2024T2,2024-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",2.019637086751181,Persistencia trimestral,-1.2579002270356463
+2024T2,2024-06-30,9,Ocupaciones elementales,-0.0411553427117765,Persistencia trimestral,4.357332500390454
+2024T3,2024-09-30,0,Ocupaciones militares,0.0,Regresion lineal,0.9607229310365826
+2024T3,2024-09-30,1,Directores y gerentes,5.145180023228798,Regresion lineal,-0.0054647388846183476
+2024T3,2024-09-30,2,Técnicos y profesionales científicos e intelectuales,3.3823252308271963,Regresion lineal,-0.2626972907889025
+2024T3,2024-09-30,3,"Técnicos, profesionales de apoyo",0.6722237160527023,Regresion lineal,-1.189062106762953
+2024T3,2024-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-2.000449539222297,Regresion lineal,-0.3647122915061272
+2024T3,2024-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.6646928201332347,Regresion lineal,-0.2807162752118107
+2024T3,2024-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2838801711840309,Regresion lineal,1.6558427265601077
+2024T3,2024-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.854714064915004,Regresion lineal,-0.06775081602592109
+2024T3,2024-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",-1.6324541633672385,Regresion lineal,-0.6669166303594523
+2024T3,2024-09-30,9,Ocupaciones elementales,-0.411722873077067,Regresion lineal,0.03304397001107992
+2024T3,2024-09-30,0,Ocupaciones militares,0.0,Ridge,0.0893514176624777
+2024T3,2024-09-30,1,Directores y gerentes,5.145180023228798,Ridge,-0.10718126485619284
+2024T3,2024-09-30,2,Técnicos y profesionales científicos e intelectuales,3.3823252308271963,Ridge,1.2047158054850742
+2024T3,2024-09-30,3,"Técnicos, profesionales de apoyo",0.6722237160527023,Ridge,0.6603011689274791
+2024T3,2024-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-2.000449539222297,Ridge,0.2626409638609651
+2024T3,2024-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.6646928201332347,Ridge,0.23422908869998396
+2024T3,2024-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2838801711840309,Ridge,-0.0653069089351555
+2024T3,2024-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.854714064915004,Ridge,0.0857384346246127
+2024T3,2024-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",-1.6324541633672385,Ridge,0.09285398344013211
+2024T3,2024-09-30,9,Ocupaciones elementales,-0.411722873077067,Ridge,0.34986112204675257
+2024T3,2024-09-30,0,Ocupaciones militares,0.0,Elastic Net,0.08664138010885686
+2024T3,2024-09-30,1,Directores y gerentes,5.145180023228798,Elastic Net,-0.14694952486058405
+2024T3,2024-09-30,2,Técnicos y profesionales científicos e intelectuales,3.3823252308271963,Elastic Net,1.3418862091284527
+2024T3,2024-09-30,3,"Técnicos, profesionales de apoyo",0.6722237160527023,Elastic Net,0.6847558203988924
+2024T3,2024-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-2.000449539222297,Elastic Net,0.2446042912016919
+2024T3,2024-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.6646928201332347,Elastic Net,0.20050696554979244
+2024T3,2024-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2838801711840309,Elastic Net,-0.045712671618351575
+2024T3,2024-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.854714064915004,Elastic Net,0.13682060548445135
+2024T3,2024-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",-1.6324541633672385,Elastic Net,0.06409060422790866
+2024T3,2024-09-30,9,Ocupaciones elementales,-0.411722873077067,Elastic Net,0.35625596965339557
+2024T3,2024-09-30,0,Ocupaciones militares,0.0,Random Forest,0.8754281129429018
+2024T3,2024-09-30,1,Directores y gerentes,5.145180023228798,Random Forest,0.023926272748945356
+2024T3,2024-09-30,2,Técnicos y profesionales científicos e intelectuales,3.3823252308271963,Random Forest,1.243499133104222
+2024T3,2024-09-30,3,"Técnicos, profesionales de apoyo",0.6722237160527023,Random Forest,0.6552091555797152
+2024T3,2024-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-2.000449539222297,Random Forest,0.051042785680705714
+2024T3,2024-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.6646928201332347,Random Forest,-0.9773790517009706
+2024T3,2024-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2838801711840309,Random Forest,0.07232404616304329
+2024T3,2024-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.854714064915004,Random Forest,0.18096046286260364
+2024T3,2024-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",-1.6324541633672385,Random Forest,0.12867610916325947
+2024T3,2024-09-30,9,Ocupaciones elementales,-0.411722873077067,Random Forest,0.5543011477953637
+2024T3,2024-09-30,0,Ocupaciones militares,0.0,Gradient Boosting,2.2695218024579074
+2024T3,2024-09-30,1,Directores y gerentes,5.145180023228798,Gradient Boosting,0.08859815300322403
+2024T3,2024-09-30,2,Técnicos y profesionales científicos e intelectuales,3.3823252308271963,Gradient Boosting,-0.3131754627892489
+2024T3,2024-09-30,3,"Técnicos, profesionales de apoyo",0.6722237160527023,Gradient Boosting,0.3901324780450718
+2024T3,2024-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-2.000449539222297,Gradient Boosting,0.20066435417931755
+2024T3,2024-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.6646928201332347,Gradient Boosting,-1.0037171663767912
+2024T3,2024-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2838801711840309,Gradient Boosting,-0.07070218827202719
+2024T3,2024-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.854714064915004,Gradient Boosting,0.004796583672083941
+2024T3,2024-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",-1.6324541633672385,Gradient Boosting,0.3675301427046399
+2024T3,2024-09-30,9,Ocupaciones elementales,-0.411722873077067,Gradient Boosting,0.34428506901810174
+2024T3,2024-09-30,0,Ocupaciones militares,0.0,Crecimiento cero,0.0
+2024T3,2024-09-30,1,Directores y gerentes,5.145180023228798,Crecimiento cero,0.0
+2024T3,2024-09-30,2,Técnicos y profesionales científicos e intelectuales,3.3823252308271963,Crecimiento cero,0.0
+2024T3,2024-09-30,3,"Técnicos, profesionales de apoyo",0.6722237160527023,Crecimiento cero,0.0
+2024T3,2024-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-2.000449539222297,Crecimiento cero,0.0
+2024T3,2024-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.6646928201332347,Crecimiento cero,0.0
+2024T3,2024-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2838801711840309,Crecimiento cero,0.0
+2024T3,2024-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.854714064915004,Crecimiento cero,0.0
+2024T3,2024-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",-1.6324541633672385,Crecimiento cero,0.0
+2024T3,2024-09-30,9,Ocupaciones elementales,-0.411722873077067,Crecimiento cero,0.0
+2024T3,2024-09-30,0,Ocupaciones militares,0.0,Persistencia trimestral,-4.437869822485208
+2024T3,2024-09-30,1,Directores y gerentes,5.145180023228798,Persistencia trimestral,0.0
+2024T3,2024-09-30,2,Técnicos y profesionales científicos e intelectuales,3.3823252308271963,Persistencia trimestral,-2.6394844864356504
+2024T3,2024-09-30,3,"Técnicos, profesionales de apoyo",0.6722237160527023,Persistencia trimestral,0.0807319698600705
+2024T3,2024-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-2.000449539222297,Persistencia trimestral,2.943218103567946
+2024T3,2024-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.6646928201332347,Persistencia trimestral,2.4216431650313064
+2024T3,2024-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2838801711840309,Persistencia trimestral,0.2144388849178113
+2024T3,2024-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.854714064915004,Persistencia trimestral,2.1131082858395267
+2024T3,2024-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",-1.6324541633672385,Persistencia trimestral,2.0196370867511915
+2024T3,2024-09-30,9,Ocupaciones elementales,-0.411722873077067,Persistencia trimestral,-0.0411553427117739
+2024T4,2024-12-31,0,Ocupaciones militares,-5.2631578947368505,Regresion lineal,1.2179110112877538
+2024T4,2024-12-31,1,Directores y gerentes,0.3976582348392823,Regresion lineal,-0.6224896193949814
+2024T4,2024-12-31,2,Técnicos y profesionales científicos e intelectuales,2.5517178529116924,Regresion lineal,-1.9441810128418666
+2024T4,2024-12-31,3,"Técnicos, profesionales de apoyo",-0.3357753357753427,Regresion lineal,-1.3282723501171163
+2024T4,2024-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.2431192660550542,Regresion lineal,0.43308247194426963
+2024T4,2024-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-3.2612710483433,Regresion lineal,0.518994895950696
+2024T4,2024-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",5.346820809248552,Regresion lineal,1.6277397159410065
+2024T4,2024-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),0.4341595009273194,Regresion lineal,-0.313274624360401
+2024T4,2024-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-0.885503746362015,Regresion lineal,-0.40210457434987834
+2024T4,2024-12-31,9,Ocupaciones elementales,-2.1460517908820957,Regresion lineal,-0.1454640257662588
+2024T4,2024-12-31,0,Ocupaciones militares,-5.2631578947368505,Ridge,-0.06457460108257237
+2024T4,2024-12-31,1,Directores y gerentes,0.3976582348392823,Ridge,-0.3883504491068738
+2024T4,2024-12-31,2,Técnicos y profesionales científicos e intelectuales,2.5517178529116924,Ridge,0.19394647840267878
+2024T4,2024-12-31,3,"Técnicos, profesionales de apoyo",-0.3357753357753427,Ridge,0.5150142152833564
+2024T4,2024-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.2431192660550542,Ridge,0.7125936884531793
+2024T4,2024-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-3.2612710483433,Ridge,0.6017473727504493
+2024T4,2024-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",5.346820809248552,Ridge,-0.14359184967101477
+2024T4,2024-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),0.4341595009273194,Ridge,0.03316248745380096
+2024T4,2024-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-0.885503746362015,Ridge,0.18014263632831648
+2024T4,2024-12-31,9,Ocupaciones elementales,-2.1460517908820957,Ridge,0.214604716830144
+2024T4,2024-12-31,0,Ocupaciones militares,-5.2631578947368505,Elastic Net,-0.0871915960288441
+2024T4,2024-12-31,1,Directores y gerentes,0.3976582348392823,Elastic Net,-0.5422725402450108
+2024T4,2024-12-31,2,Técnicos y profesionales científicos e intelectuales,2.5517178529116924,Elastic Net,0.08975099913610665
+2024T4,2024-12-31,3,"Técnicos, profesionales de apoyo",-0.3357753357753427,Elastic Net,0.49973865388883454
+2024T4,2024-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.2431192660550542,Elastic Net,0.7805655383039577
+2024T4,2024-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-3.2612710483433,Elastic Net,0.6223427168856697
+2024T4,2024-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",5.346820809248552,Elastic Net,-0.17582886066030287
+2024T4,2024-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),0.4341595009273194,Elastic Net,0.04085171323825168
+2024T4,2024-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-0.885503746362015,Elastic Net,0.1547244471618845
+2024T4,2024-12-31,9,Ocupaciones elementales,-2.1460517908820957,Elastic Net,0.18878553583742094
+2024T4,2024-12-31,0,Ocupaciones militares,-5.2631578947368505,Random Forest,1.2371672011817059
+2024T4,2024-12-31,1,Directores y gerentes,0.3976582348392823,Random Forest,-0.08441317200339725
+2024T4,2024-12-31,2,Técnicos y profesionales científicos e intelectuales,2.5517178529116924,Random Forest,-0.21692346986935326
+2024T4,2024-12-31,3,"Técnicos, profesionales de apoyo",-0.3357753357753427,Random Forest,0.04366647527226445
+2024T4,2024-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.2431192660550542,Random Forest,-0.2739397415531731
+2024T4,2024-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-3.2612710483433,Random Forest,-1.1215418949712088
+2024T4,2024-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",5.346820809248552,Random Forest,-0.311909530260651
+2024T4,2024-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),0.4341595009273194,Random Forest,-0.23025143818946564
+2024T4,2024-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-0.885503746362015,Random Forest,-0.45610253960870073
+2024T4,2024-12-31,9,Ocupaciones elementales,-2.1460517908820957,Random Forest,-0.3488046954305228
+2024T4,2024-12-31,0,Ocupaciones militares,-5.2631578947368505,Gradient Boosting,0.7803579879277904
+2024T4,2024-12-31,1,Directores y gerentes,0.3976582348392823,Gradient Boosting,-0.1703180638942968
+2024T4,2024-12-31,2,Técnicos y profesionales científicos e intelectuales,2.5517178529116924,Gradient Boosting,-0.13309322523648873
+2024T4,2024-12-31,3,"Técnicos, profesionales de apoyo",-0.3357753357753427,Gradient Boosting,0.0011396360738262466
+2024T4,2024-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.2431192660550542,Gradient Boosting,-0.1069711047455088
+2024T4,2024-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-3.2612710483433,Gradient Boosting,-1.0383186235403226
+2024T4,2024-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",5.346820809248552,Gradient Boosting,-0.04226934294677137
+2024T4,2024-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),0.4341595009273194,Gradient Boosting,-0.09710653604343752
+2024T4,2024-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-0.885503746362015,Gradient Boosting,-0.16224182681344737
+2024T4,2024-12-31,9,Ocupaciones elementales,-2.1460517908820957,Gradient Boosting,-0.42268002755741907
+2024T4,2024-12-31,0,Ocupaciones militares,-5.2631578947368505,Crecimiento cero,0.0
+2024T4,2024-12-31,1,Directores y gerentes,0.3976582348392823,Crecimiento cero,0.0
+2024T4,2024-12-31,2,Técnicos y profesionales científicos e intelectuales,2.5517178529116924,Crecimiento cero,0.0
+2024T4,2024-12-31,3,"Técnicos, profesionales de apoyo",-0.3357753357753427,Crecimiento cero,0.0
+2024T4,2024-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.2431192660550542,Crecimiento cero,0.0
+2024T4,2024-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-3.2612710483433,Crecimiento cero,0.0
+2024T4,2024-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",5.346820809248552,Crecimiento cero,0.0
+2024T4,2024-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),0.4341595009273194,Crecimiento cero,0.0
+2024T4,2024-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-0.885503746362015,Crecimiento cero,0.0
+2024T4,2024-12-31,9,Ocupaciones elementales,-2.1460517908820957,Crecimiento cero,0.0
+2024T4,2024-12-31,0,Ocupaciones militares,-5.2631578947368505,Persistencia trimestral,0.0
+2024T4,2024-12-31,1,Directores y gerentes,0.3976582348392823,Persistencia trimestral,5.14518002322879
+2024T4,2024-12-31,2,Técnicos y profesionales científicos e intelectuales,2.5517178529116924,Persistencia trimestral,3.382325230827199
+2024T4,2024-12-31,3,"Técnicos, profesionales de apoyo",-0.3357753357753427,Persistencia trimestral,0.6722237160527111
+2024T4,2024-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.2431192660550542,Persistencia trimestral,-2.000449539222293
+2024T4,2024-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-3.2612710483433,Persistencia trimestral,-2.66469282013323
+2024T4,2024-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",5.346820809248552,Persistencia trimestral,-1.2838801711840264
+2024T4,2024-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),0.4341595009273194,Persistencia trimestral,1.8547140649149971
+2024T4,2024-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-0.885503746362015,Persistencia trimestral,-1.6324541633672365
+2024T4,2024-12-31,9,Ocupaciones elementales,-2.1460517908820957,Persistencia trimestral,-0.4117228730770694
+2025T1,2025-03-31,0,Ocupaciones militares,6.644880174291949,Regresion lineal,2.2539465921304633
+2025T1,2025-03-31,1,Directores y gerentes,6.777423258884369,Regresion lineal,1.980834498559649
+2025T1,2025-03-31,2,Técnicos y profesionales científicos e intelectuales,-0.3376877277170492,Regresion lineal,-0.584531155659932
+2025T1,2025-03-31,3,"Técnicos, profesionales de apoyo",1.5428790199081233,Regresion lineal,-0.17974217719170513
+2025T1,2025-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",0.8001103600496664,Regresion lineal,1.1910271927667766
+2025T1,2025-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.98607492588267,Regresion lineal,1.791919208833096
+2025T1,2025-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2345679012345627,Regresion lineal,2.4508246535795064
+2025T1,2025-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),3.48764007218703,Regresion lineal,0.8416478821254754
+2025T1,2025-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",2.4303386230163744,Regresion lineal,0.8256430901372074
+2025T1,2025-03-31,9,Ocupaciones elementales,2.093255492395145,Regresion lineal,1.3757332886598783
+2025T1,2025-03-31,0,Ocupaciones militares,6.644880174291949,Ridge,0.8035426689990772
+2025T1,2025-03-31,1,Directores y gerentes,6.777423258884369,Ridge,1.561049007934899
+2025T1,2025-03-31,2,Técnicos y profesionales científicos e intelectuales,-0.3376877277170492,Ridge,1.382238302042075
+2025T1,2025-03-31,3,"Técnicos, profesionales de apoyo",1.5428790199081233,Ridge,1.4123120719098021
+2025T1,2025-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",0.8001103600496664,Ridge,1.3161016588139482
+2025T1,2025-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.98607492588267,Ridge,1.3794730769749286
+2025T1,2025-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2345679012345627,Ridge,0.7109845125987693
+2025T1,2025-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),3.48764007218703,Ridge,1.002461181302466
+2025T1,2025-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",2.4303386230163744,Ridge,1.0217422672320626
+2025T1,2025-03-31,9,Ocupaciones elementales,2.093255492395145,Ridge,1.213289112832743
+2025T1,2025-03-31,0,Ocupaciones militares,6.644880174291949,Elastic Net,0.8726891727835202
+2025T1,2025-03-31,1,Directores y gerentes,6.777423258884369,Elastic Net,1.7671000322471369
+2025T1,2025-03-31,2,Técnicos y profesionales científicos e intelectuales,-0.3376877277170492,Elastic Net,1.463929311519423
+2025T1,2025-03-31,3,"Técnicos, profesionales de apoyo",1.5428790199081233,Elastic Net,1.5251840587090135
+2025T1,2025-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",0.8001103600496664,Elastic Net,1.4423797082827785
+2025T1,2025-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.98607492588267,Elastic Net,1.5059912369563484
+2025T1,2025-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2345679012345627,Elastic Net,0.8489597265892476
+2025T1,2025-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),3.48764007218703,Elastic Net,1.12283384990442
+2025T1,2025-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",2.4303386230163744,Elastic Net,1.1250298536802479
+2025T1,2025-03-31,9,Ocupaciones elementales,2.093255492395145,Elastic Net,1.3443307106867144
+2025T1,2025-03-31,0,Ocupaciones militares,6.644880174291949,Random Forest,0.7239794085839375
+2025T1,2025-03-31,1,Directores y gerentes,6.777423258884369,Random Forest,1.2205658339437624
+2025T1,2025-03-31,2,Técnicos y profesionales científicos e intelectuales,-0.3376877277170492,Random Forest,0.9423997485429739
+2025T1,2025-03-31,3,"Técnicos, profesionales de apoyo",1.5428790199081233,Random Forest,1.1473516054535255
+2025T1,2025-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",0.8001103600496664,Random Forest,1.0705376814702072
+2025T1,2025-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.98607492588267,Random Forest,0.8903766023335606
+2025T1,2025-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2345679012345627,Random Forest,0.8328788436637462
+2025T1,2025-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),3.48764007218703,Random Forest,1.0718018095460593
+2025T1,2025-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",2.4303386230163744,Random Forest,0.5767100678871244
+2025T1,2025-03-31,9,Ocupaciones elementales,2.093255492395145,Random Forest,1.1370656415701978
+2025T1,2025-03-31,0,Ocupaciones militares,6.644880174291949,Gradient Boosting,1.4275858491277682
+2025T1,2025-03-31,1,Directores y gerentes,6.777423258884369,Gradient Boosting,1.0250749638334244
+2025T1,2025-03-31,2,Técnicos y profesionales científicos e intelectuales,-0.3376877277170492,Gradient Boosting,1.0080928106191716
+2025T1,2025-03-31,3,"Técnicos, profesionales de apoyo",1.5428790199081233,Gradient Boosting,1.0892604104907984
+2025T1,2025-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",0.8001103600496664,Gradient Boosting,1.198099974792186
+2025T1,2025-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.98607492588267,Gradient Boosting,1.2239997043837951
+2025T1,2025-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2345679012345627,Gradient Boosting,0.4604024758766589
+2025T1,2025-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),3.48764007218703,Gradient Boosting,1.0493715168465074
+2025T1,2025-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",2.4303386230163744,Gradient Boosting,0.7373395494017141
+2025T1,2025-03-31,9,Ocupaciones elementales,2.093255492395145,Gradient Boosting,0.8768736909142851
+2025T1,2025-03-31,0,Ocupaciones militares,6.644880174291949,Crecimiento cero,0.0
+2025T1,2025-03-31,1,Directores y gerentes,6.777423258884369,Crecimiento cero,0.0
+2025T1,2025-03-31,2,Técnicos y profesionales científicos e intelectuales,-0.3376877277170492,Crecimiento cero,0.0
+2025T1,2025-03-31,3,"Técnicos, profesionales de apoyo",1.5428790199081233,Crecimiento cero,0.0
+2025T1,2025-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",0.8001103600496664,Crecimiento cero,0.0
+2025T1,2025-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.98607492588267,Crecimiento cero,0.0
+2025T1,2025-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2345679012345627,Crecimiento cero,0.0
+2025T1,2025-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),3.48764007218703,Crecimiento cero,0.0
+2025T1,2025-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",2.4303386230163744,Crecimiento cero,0.0
+2025T1,2025-03-31,9,Ocupaciones elementales,2.093255492395145,Crecimiento cero,0.0
+2025T1,2025-03-31,0,Ocupaciones militares,6.644880174291949,Persistencia trimestral,-5.263157894736848
+2025T1,2025-03-31,1,Directores y gerentes,6.777423258884369,Persistencia trimestral,0.3976582348392821
+2025T1,2025-03-31,2,Técnicos y profesionales científicos e intelectuales,-0.3376877277170492,Persistencia trimestral,2.5517178529116835
+2025T1,2025-03-31,3,"Técnicos, profesionales de apoyo",1.5428790199081233,Persistencia trimestral,-0.3357753357753457
+2025T1,2025-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",0.8001103600496664,Persistencia trimestral,-0.2431192660550585
+2025T1,2025-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.98607492588267,Persistencia trimestral,-3.261271048343295
+2025T1,2025-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2345679012345627,Persistencia trimestral,5.346820809248554
+2025T1,2025-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),3.48764007218703,Persistencia trimestral,0.4341595009273113
+2025T1,2025-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",2.4303386230163744,Persistencia trimestral,-0.8855037463620152
+2025T1,2025-03-31,9,Ocupaciones elementales,2.093255492395145,Persistencia trimestral,-2.146051790882097
+2025T2,2025-06-30,0,Ocupaciones militares,-4.290091930541371,Regresion lineal,2.4331392161002636
+2025T2,2025-06-30,1,Directores y gerentes,-2.132921174652246,Regresion lineal,1.0168186877830083
+2025T2,2025-06-30,2,Técnicos y profesionales científicos e intelectuales,-1.1903700401248247,Regresion lineal,0.10897988516827017
+2025T2,2025-06-30,3,"Técnicos, profesionales de apoyo",-0.3468687554198346,Regresion lineal,-0.2402116229271546
+2025T2,2025-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",1.1313352493043285,Regresion lineal,1.1454211648910924
+2025T2,2025-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.3116549717610857,Regresion lineal,0.9215550404593389
+2025T2,2025-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.194444444444447,Regresion lineal,2.812654630259419
+2025T2,2025-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.2288101224754715,Regresion lineal,0.9356435179260767
+2025T2,2025-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",0.8539188777066178,Regresion lineal,1.015722799627615
+2025T2,2025-06-30,9,Ocupaciones elementales,1.0872427673902447,Regresion lineal,1.0015811936336916
+2025T2,2025-06-30,0,Ocupaciones militares,-4.290091930541371,Ridge,0.944346682457167
+2025T2,2025-06-30,1,Directores y gerentes,-2.132921174652246,Ridge,1.2265795986264294
+2025T2,2025-06-30,2,Técnicos y profesionales científicos e intelectuales,-1.1903700401248247,Ridge,1.8666142854733643
+2025T2,2025-06-30,3,"Técnicos, profesionales de apoyo",-0.3468687554198346,Ridge,1.4084206493337206
+2025T2,2025-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",1.1313352493043285,Ridge,1.3327647363413972
+2025T2,2025-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.3116549717610857,Ridge,0.937634497628077
+2025T2,2025-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.194444444444447,Ridge,1.0712941804154072
+2025T2,2025-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.2288101224754715,Ridge,1.1466789602650476
+2025T2,2025-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",0.8539188777066178,Ridge,1.1411688170134642
+2025T2,2025-06-30,9,Ocupaciones elementales,1.0872427673902447,Ridge,1.054184529834435
+2025T2,2025-06-30,0,Ocupaciones militares,-4.290091930541371,Elastic Net,1.2529963174612329
+2025T2,2025-06-30,1,Directores y gerentes,-2.132921174652246,Elastic Net,1.3383418184311289
+2025T2,2025-06-30,2,Técnicos y profesionales científicos e intelectuales,-1.1903700401248247,Elastic Net,2.050488236272505
+2025T2,2025-06-30,3,"Técnicos, profesionales de apoyo",-0.3468687554198346,Elastic Net,1.5144088983481252
+2025T2,2025-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",1.1313352493043285,Elastic Net,1.4588032510335358
+2025T2,2025-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.3116549717610857,Elastic Net,1.0017870681962944
+2025T2,2025-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.194444444444447,Elastic Net,1.192570972162013
+2025T2,2025-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.2288101224754715,Elastic Net,1.2994121071586364
+2025T2,2025-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",0.8539188777066178,Elastic Net,1.3030564990225344
+2025T2,2025-06-30,9,Ocupaciones elementales,1.0872427673902447,Elastic Net,1.1768368144380457
+2025T2,2025-06-30,0,Ocupaciones militares,-4.290091930541371,Random Forest,-0.1911041818292671
+2025T2,2025-06-30,1,Directores y gerentes,-2.132921174652246,Random Forest,1.325476370819381
+2025T2,2025-06-30,2,Técnicos y profesionales científicos e intelectuales,-1.1903700401248247,Random Forest,1.0554586747161587
+2025T2,2025-06-30,3,"Técnicos, profesionales de apoyo",-0.3468687554198346,Random Forest,0.8122600598234803
+2025T2,2025-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",1.1313352493043285,Random Forest,0.9672378059028762
+2025T2,2025-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.3116549717610857,Random Forest,1.4019550888491412
+2025T2,2025-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.194444444444447,Random Forest,0.37010885667283144
+2025T2,2025-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.2288101224754715,Random Forest,0.955786634096882
+2025T2,2025-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",0.8539188777066178,Random Forest,0.7332940099174637
+2025T2,2025-06-30,9,Ocupaciones elementales,1.0872427673902447,Random Forest,0.13809160225835374
+2025T2,2025-06-30,0,Ocupaciones militares,-4.290091930541371,Gradient Boosting,1.0172869195205372
+2025T2,2025-06-30,1,Directores y gerentes,-2.132921174652246,Gradient Boosting,0.7992958729814938
+2025T2,2025-06-30,2,Técnicos y profesionales científicos e intelectuales,-1.1903700401248247,Gradient Boosting,1.0640897807932106
+2025T2,2025-06-30,3,"Técnicos, profesionales de apoyo",-0.3468687554198346,Gradient Boosting,0.7826278775522328
+2025T2,2025-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",1.1313352493043285,Gradient Boosting,0.8531883366357683
+2025T2,2025-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.3116549717610857,Gradient Boosting,1.5589189423711318
+2025T2,2025-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.194444444444447,Gradient Boosting,0.358954907173369
+2025T2,2025-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.2288101224754715,Gradient Boosting,0.7826278775522328
+2025T2,2025-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",0.8539188777066178,Gradient Boosting,0.7826278775522328
+2025T2,2025-06-30,9,Ocupaciones elementales,1.0872427673902447,Gradient Boosting,0.6070752268703881
+2025T2,2025-06-30,0,Ocupaciones militares,-4.290091930541371,Crecimiento cero,0.0
+2025T2,2025-06-30,1,Directores y gerentes,-2.132921174652246,Crecimiento cero,0.0
+2025T2,2025-06-30,2,Técnicos y profesionales científicos e intelectuales,-1.1903700401248247,Crecimiento cero,0.0
+2025T2,2025-06-30,3,"Técnicos, profesionales de apoyo",-0.3468687554198346,Crecimiento cero,0.0
+2025T2,2025-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",1.1313352493043285,Crecimiento cero,0.0
+2025T2,2025-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.3116549717610857,Crecimiento cero,0.0
+2025T2,2025-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.194444444444447,Crecimiento cero,0.0
+2025T2,2025-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.2288101224754715,Crecimiento cero,0.0
+2025T2,2025-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",0.8539188777066178,Crecimiento cero,0.0
+2025T2,2025-06-30,9,Ocupaciones elementales,1.0872427673902447,Crecimiento cero,0.0
+2025T2,2025-06-30,0,Ocupaciones militares,-4.290091930541371,Persistencia trimestral,6.644880174291945
+2025T2,2025-06-30,1,Directores y gerentes,-2.132921174652246,Persistencia trimestral,6.777423258884374
+2025T2,2025-06-30,2,Técnicos y profesionales científicos e intelectuales,-1.1903700401248247,Persistencia trimestral,-0.3376877277170509
+2025T2,2025-06-30,3,"Técnicos, profesionales de apoyo",-0.3468687554198346,Persistencia trimestral,1.5428790199081277
+2025T2,2025-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",1.1313352493043285,Persistencia trimestral,0.8001103600496773
+2025T2,2025-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.3116549717610857,Persistencia trimestral,4.9860749258826775
+2025T2,2025-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.194444444444447,Persistencia trimestral,-1.2345679012345625
+2025T2,2025-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.2288101224754715,Persistencia trimestral,3.487640072187026
+2025T2,2025-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",0.8539188777066178,Persistencia trimestral,2.430338623016381
+2025T2,2025-06-30,9,Ocupaciones elementales,1.0872427673902447,Persistencia trimestral,2.0932554923951407
+2025T3,2025-09-30,0,Ocupaciones militares,6.083244397011742,Regresion lineal,1.6455699359259344
+2025T3,2025-09-30,1,Directores y gerentes,-1.052853232259423,Regresion lineal,1.380590474959684
+2025T3,2025-09-30,2,Técnicos y profesionales científicos e intelectuales,4.198438839507275,Regresion lineal,-0.5068049905088016
+2025T3,2025-09-30,3,"Técnicos, profesionales de apoyo",1.5928266051227693,Regresion lineal,-1.0771037745482275
+2025T3,2025-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-3.807118047724304,Regresion lineal,-0.340179842326816
+2025T3,2025-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.393771225047616,Regresion lineal,-0.27848403435538105
+2025T3,2025-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.9291161956034144,Regresion lineal,1.416812778408199
+2025T3,2025-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-2.024225005132424,Regresion lineal,-0.04736004441940747
+2025T3,2025-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",1.8808587843967288,Regresion lineal,-0.18087340777173946
+2025T3,2025-09-30,9,Ocupaciones elementales,2.9438034983252663,Regresion lineal,-0.04704124702373727
+2025T3,2025-09-30,0,Ocupaciones militares,6.083244397011742,Ridge,0.14230620613132475
+2025T3,2025-09-30,1,Directores y gerentes,-1.052853232259423,Ridge,1.33899007782013
+2025T3,2025-09-30,2,Técnicos y profesionales científicos e intelectuales,4.198438839507275,Ridge,1.0639528993937548
+2025T3,2025-09-30,3,"Técnicos, profesionales de apoyo",1.5928266051227693,Ridge,0.5978489783249797
+2025T3,2025-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-3.807118047724304,Ridge,0.19639522283553582
+2025T3,2025-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.393771225047616,Ridge,0.17299942917853406
+2025T3,2025-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.9291161956034144,Ridge,-0.04553273269043448
+2025T3,2025-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-2.024225005132424,Ridge,0.3427494605543282
+2025T3,2025-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",1.8808587843967288,Ridge,0.22716635364803536
+2025T3,2025-09-30,9,Ocupaciones elementales,2.9438034983252663,Ridge,0.1874416294457043
+2025T3,2025-09-30,0,Ocupaciones militares,6.083244397011742,Elastic Net,0.12629996675205216
+2025T3,2025-09-30,1,Directores y gerentes,-1.052853232259423,Elastic Net,1.554645936507451
+2025T3,2025-09-30,2,Técnicos y profesionales científicos e intelectuales,4.198438839507275,Elastic Net,1.1324360441816084
+2025T3,2025-09-30,3,"Técnicos, profesionales de apoyo",1.5928266051227693,Elastic Net,0.5922854229208194
+2025T3,2025-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-3.807118047724304,Elastic Net,0.16639851896141708
+2025T3,2025-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.393771225047616,Elastic Net,0.13593360876946053
+2025T3,2025-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.9291161956034144,Elastic Net,-0.0067544683689856055
+2025T3,2025-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-2.024225005132424,Elastic Net,0.36274904373596584
+2025T3,2025-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",1.8808587843967288,Elastic Net,0.25267730397327226
+2025T3,2025-09-30,9,Ocupaciones elementales,2.9438034983252663,Elastic Net,0.1638718559421231
+2025T3,2025-09-30,0,Ocupaciones militares,6.083244397011742,Random Forest,0.8228697917920718
+2025T3,2025-09-30,1,Directores y gerentes,-1.052853232259423,Random Forest,0.497476192006536
+2025T3,2025-09-30,2,Técnicos y profesionales científicos e intelectuales,4.198438839507275,Random Forest,1.2892646320375571
+2025T3,2025-09-30,3,"Técnicos, profesionales de apoyo",1.5928266051227693,Random Forest,0.6901085534434414
+2025T3,2025-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-3.807118047724304,Random Forest,0.12806081185366303
+2025T3,2025-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.393771225047616,Random Forest,-0.8171348383690864
+2025T3,2025-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.9291161956034144,Random Forest,0.18673872296621258
+2025T3,2025-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-2.024225005132424,Random Forest,0.5237572878631529
+2025T3,2025-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",1.8808587843967288,Random Forest,0.17724008717637224
+2025T3,2025-09-30,9,Ocupaciones elementales,2.9438034983252663,Random Forest,0.24704682457711225
+2025T3,2025-09-30,0,Ocupaciones militares,6.083244397011742,Gradient Boosting,1.6299193824329117
+2025T3,2025-09-30,1,Directores y gerentes,-1.052853232259423,Gradient Boosting,0.4152385175014384
+2025T3,2025-09-30,2,Técnicos y profesionales científicos e intelectuales,4.198438839507275,Gradient Boosting,0.36180696956317465
+2025T3,2025-09-30,3,"Técnicos, profesionales de apoyo",1.5928266051227693,Gradient Boosting,0.39874917573006013
+2025T3,2025-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-3.807118047724304,Gradient Boosting,-0.2305415122396812
+2025T3,2025-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.393771225047616,Gradient Boosting,-0.9809356065281221
+2025T3,2025-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.9291161956034144,Gradient Boosting,-0.12029011447041552
+2025T3,2025-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-2.024225005132424,Gradient Boosting,0.3575431146853297
+2025T3,2025-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",1.8808587843967288,Gradient Boosting,0.3861289727090449
+2025T3,2025-09-30,9,Ocupaciones elementales,2.9438034983252663,Gradient Boosting,0.07188520775504378
+2025T3,2025-09-30,0,Ocupaciones militares,6.083244397011742,Crecimiento cero,0.0
+2025T3,2025-09-30,1,Directores y gerentes,-1.052853232259423,Crecimiento cero,0.0
+2025T3,2025-09-30,2,Técnicos y profesionales científicos e intelectuales,4.198438839507275,Crecimiento cero,0.0
+2025T3,2025-09-30,3,"Técnicos, profesionales de apoyo",1.5928266051227693,Crecimiento cero,0.0
+2025T3,2025-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-3.807118047724304,Crecimiento cero,0.0
+2025T3,2025-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.393771225047616,Crecimiento cero,0.0
+2025T3,2025-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.9291161956034144,Crecimiento cero,0.0
+2025T3,2025-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-2.024225005132424,Crecimiento cero,0.0
+2025T3,2025-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",1.8808587843967288,Crecimiento cero,0.0
+2025T3,2025-09-30,9,Ocupaciones elementales,2.9438034983252663,Crecimiento cero,0.0
+2025T3,2025-09-30,0,Ocupaciones militares,6.083244397011742,Persistencia trimestral,-4.290091930541373
+2025T3,2025-09-30,1,Directores y gerentes,-1.052853232259423,Persistencia trimestral,-2.132921174652247
+2025T3,2025-09-30,2,Técnicos y profesionales científicos e intelectuales,4.198438839507275,Persistencia trimestral,-1.1903700401248218
+2025T3,2025-09-30,3,"Técnicos, profesionales de apoyo",1.5928266051227693,Persistencia trimestral,-0.3468687554198379
+2025T3,2025-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-3.807118047724304,Persistencia trimestral,1.1313352493043327
+2025T3,2025-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.393771225047616,Persistencia trimestral,3.311654971761091
+2025T3,2025-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.9291161956034144,Persistencia trimestral,3.1944444444444557
+2025T3,2025-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-2.024225005132424,Persistencia trimestral,-1.2288101224754766
+2025T3,2025-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",1.8808587843967288,Persistencia trimestral,0.8539188777066276
+2025T3,2025-09-30,9,Ocupaciones elementales,2.9438034983252663,Persistencia trimestral,1.0872427673902507
+2025T4,2025-12-31,0,Ocupaciones militares,2.515090543259557,Regresion lineal,0.9752640223360775
+2025T4,2025-12-31,1,Directores y gerentes,-1.383273036816344,Regresion lineal,0.2619442803771207
+2025T4,2025-12-31,2,Técnicos y profesionales científicos e intelectuales,0.3312620434321385,Regresion lineal,-1.7733181284319226
+2025T4,2025-12-31,3,"Técnicos, profesionales de apoyo",0.9198569938924576,Regresion lineal,-1.406934236265748
+2025T4,2025-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.4783118405627113,Regresion lineal,0.5530791062072188
+2025T4,2025-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.0302953156822965,Regresion lineal,0.5689624465076525
+2025T4,2025-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.6468435498627605,Regresion lineal,1.5942240526998273
+2025T4,2025-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.064453943508492,Regresion lineal,-0.08766707684039499
+2025T4,2025-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-2.0598361628873216,Regresion lineal,-0.26436789669770056
+2025T4,2025-12-31,9,Ocupaciones elementales,-0.9688731426918668,Regresion lineal,-0.3193710214422901
+2025T4,2025-12-31,0,Ocupaciones militares,2.515090543259557,Ridge,-0.21293910127379623
+2025T4,2025-12-31,1,Directores y gerentes,-1.383273036816344,Ridge,0.5819708990452639
+2025T4,2025-12-31,2,Técnicos y profesionales científicos e intelectuales,0.3312620434321385,Ridge,0.30542091515590025
+2025T4,2025-12-31,3,"Técnicos, profesionales de apoyo",0.9198569938924576,Ridge,0.3729092785892844
+2025T4,2025-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.4783118405627113,Ridge,0.6574549447425633
+2025T4,2025-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.0302953156822965,Ridge,0.694729018933405
+2025T4,2025-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.6468435498627605,Ridge,0.11661714092032718
+2025T4,2025-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.064453943508492,Ridge,0.26163736746244215
+2025T4,2025-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-2.0598361628873216,Ridge,0.1921746833318851
+2025T4,2025-12-31,9,Ocupaciones elementales,-0.9688731426918668,Ridge,0.09855139433701601
+2025T4,2025-12-31,0,Ocupaciones militares,2.515090543259557,Elastic Net,-0.18131164051906212
+2025T4,2025-12-31,1,Directores y gerentes,-1.383273036816344,Elastic Net,0.6278507796396104
+2025T4,2025-12-31,2,Técnicos y profesionales científicos e intelectuales,0.3312620434321385,Elastic Net,0.21911560620973008
+2025T4,2025-12-31,3,"Técnicos, profesionales de apoyo",0.9198569938924576,Elastic Net,0.3139939365693408
+2025T4,2025-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.4783118405627113,Elastic Net,0.7021007813161839
+2025T4,2025-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.0302953156822965,Elastic Net,0.7096272558856334
+2025T4,2025-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.6468435498627605,Elastic Net,0.12578776901030853
+2025T4,2025-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.064453943508492,Elastic Net,0.2806109225621007
+2025T4,2025-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-2.0598361628873216,Elastic Net,0.17550334243524926
+2025T4,2025-12-31,9,Ocupaciones elementales,-0.9688731426918668,Elastic Net,0.04203907491366979
+2025T4,2025-12-31,0,Ocupaciones militares,2.515090543259557,Random Forest,-0.2977393600792907
+2025T4,2025-12-31,1,Directores y gerentes,-1.383273036816344,Random Forest,-0.09237644680980668
+2025T4,2025-12-31,2,Técnicos y profesionales científicos e intelectuales,0.3312620434321385,Random Forest,0.37368948211980463
+2025T4,2025-12-31,3,"Técnicos, profesionales de apoyo",0.9198569938924576,Random Forest,-0.17954970625653896
+2025T4,2025-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.4783118405627113,Random Forest,-0.063344607036294
+2025T4,2025-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.0302953156822965,Random Forest,-1.3204105981557317
+2025T4,2025-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.6468435498627605,Random Forest,-0.406237801066458
+2025T4,2025-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.064453943508492,Random Forest,-0.48747383593215393
+2025T4,2025-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-2.0598361628873216,Random Forest,-0.1214941550161756
+2025T4,2025-12-31,9,Ocupaciones elementales,-0.9688731426918668,Random Forest,-0.4930704525494127
+2025T4,2025-12-31,0,Ocupaciones militares,2.515090543259557,Gradient Boosting,-0.527153241838094
+2025T4,2025-12-31,1,Directores y gerentes,-1.383273036816344,Gradient Boosting,-0.046269969385244636
+2025T4,2025-12-31,2,Técnicos y profesionales científicos e intelectuales,0.3312620434321385,Gradient Boosting,0.08993321074654308
+2025T4,2025-12-31,3,"Técnicos, profesionales de apoyo",0.9198569938924576,Gradient Boosting,-0.17842888806447402
+2025T4,2025-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.4783118405627113,Gradient Boosting,-0.03082172885974877
+2025T4,2025-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.0302953156822965,Gradient Boosting,-0.8819130557889424
+2025T4,2025-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.6468435498627605,Gradient Boosting,-0.249341294318579
+2025T4,2025-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.064453943508492,Gradient Boosting,-0.22275025366405554
+2025T4,2025-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-2.0598361628873216,Gradient Boosting,-0.20028620600038294
+2025T4,2025-12-31,9,Ocupaciones elementales,-0.9688731426918668,Gradient Boosting,-0.39552369732396303
+2025T4,2025-12-31,0,Ocupaciones militares,2.515090543259557,Crecimiento cero,0.0
+2025T4,2025-12-31,1,Directores y gerentes,-1.383273036816344,Crecimiento cero,0.0
+2025T4,2025-12-31,2,Técnicos y profesionales científicos e intelectuales,0.3312620434321385,Crecimiento cero,0.0
+2025T4,2025-12-31,3,"Técnicos, profesionales de apoyo",0.9198569938924576,Crecimiento cero,0.0
+2025T4,2025-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.4783118405627113,Crecimiento cero,0.0
+2025T4,2025-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.0302953156822965,Crecimiento cero,0.0
+2025T4,2025-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.6468435498627605,Crecimiento cero,0.0
+2025T4,2025-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.064453943508492,Crecimiento cero,0.0
+2025T4,2025-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-2.0598361628873216,Crecimiento cero,0.0
+2025T4,2025-12-31,9,Ocupaciones elementales,-0.9688731426918668,Crecimiento cero,0.0
+2025T4,2025-12-31,0,Ocupaciones militares,2.515090543259557,Persistencia trimestral,6.083244397011733
+2025T4,2025-12-31,1,Directores y gerentes,-1.383273036816344,Persistencia trimestral,-1.0528532322594208
+2025T4,2025-12-31,2,Técnicos y profesionales científicos e intelectuales,0.3312620434321385,Persistencia trimestral,4.198438839507279
+2025T4,2025-12-31,3,"Técnicos, profesionales de apoyo",0.9198569938924576,Persistencia trimestral,1.5928266051227655
+2025T4,2025-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.4783118405627113,Persistencia trimestral,-3.807118047724301
+2025T4,2025-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.0302953156822965,Persistencia trimestral,-2.393771225047614
+2025T4,2025-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.6468435498627605,Persistencia trimestral,-1.92911619560342
+2025T4,2025-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.064453943508492,Persistencia trimestral,-2.0242250051324184
+2025T4,2025-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-2.0598361628873216,Persistencia trimestral,1.8808587843967215
+2025T4,2025-12-31,9,Ocupaciones elementales,-0.9688731426918668,Persistencia trimestral,2.9438034983252592
+2024T1,2024-03-31,0,Ocupaciones militares,-0.782778864970643,Ensemble ponderado,0.6419614752393474
+2024T1,2024-03-31,1,Directores y gerentes,3.5353535353535324,Ensemble ponderado,0.8055822796970737
+2024T1,2024-03-31,2,Técnicos y profesionales científicos e intelectuales,1.366837908830986,Ensemble ponderado,0.994635332046337
+2024T1,2024-03-31,3,"Técnicos, profesionales de apoyo",2.0438586167666988,Ensemble ponderado,1.044589360672732
+2024T1,2024-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",2.1364087536040213,Ensemble ponderado,1.1524294183836088
+2024T1,2024-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.648242108571685,Ensemble ponderado,1.5322032363893447
+2024T1,2024-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-0.7332071901608379,Ensemble ponderado,0.6970817794364316
+2024T1,2024-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-0.0306788797826102,Ensemble ponderado,0.9334000796123356
+2024T1,2024-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",-1.2579002270356507,Ensemble ponderado,0.7629062267777444
+2024T1,2024-03-31,9,Ocupaciones elementales,4.357332500390457,Ensemble ponderado,1.0100921413534405
+2024T2,2024-06-30,0,Ocupaciones militares,-4.437869822485207,Ensemble ponderado,0.40753867306545905
+2024T2,2024-06-30,1,Directores y gerentes,0.0,Ensemble ponderado,0.3122900886873482
+2024T2,2024-06-30,2,Técnicos y profesionales científicos e intelectuales,-2.639484486435652,Ensemble ponderado,1.022502433178695
+2024T2,2024-06-30,3,"Técnicos, profesionales de apoyo",0.0807319698600785,Ensemble ponderado,1.0118353781059843
+2024T2,2024-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",2.943218103567953,Ensemble ponderado,0.9975960603074693
+2024T2,2024-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.421643165031304,Ensemble ponderado,1.34511786480057
+2024T2,2024-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",0.2144388849178065,Ensemble ponderado,0.7157777364906475
+2024T2,2024-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.113108285839536,Ensemble ponderado,0.7743108621443433
+2024T2,2024-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",2.019637086751181,Ensemble ponderado,0.9037978424117901
+2024T2,2024-06-30,9,Ocupaciones elementales,-0.0411553427117765,Ensemble ponderado,0.8829287371357778
+2024T3,2024-09-30,0,Ocupaciones militares,0.0,Ensemble ponderado,1.0835689425825843
+2024T3,2024-09-30,1,Directores y gerentes,5.145180023228798,Ensemble ponderado,0.0025474348884507794
+2024T3,2024-09-30,2,Técnicos y profesionales científicos e intelectuales,3.3823252308271963,Ensemble ponderado,0.7105386873290227
+2024T3,2024-09-30,3,"Técnicos, profesionales de apoyo",0.6722237160527023,Ensemble ponderado,0.5682899220278921
+2024T3,2024-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-2.000449539222297,Ensemble ponderado,0.17043296030502056
+2024T3,2024-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.6646928201332347,Ensemble ponderado,-0.5888755073944649
+2024T3,2024-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2838801711840309,Ensemble ponderado,-0.02060691783846574
+2024T3,2024-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.854714064915004,Ensemble ponderado,0.09086142143472935
+2024T3,2024-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",-1.6324541633672385,Ensemble ponderado,0.1967548017508374
+2024T3,2024-09-30,9,Ocupaciones elementales,-0.411722873077067,Ensemble ponderado,0.4170743188089942
+2024T4,2024-12-31,0,Ocupaciones militares,-5.2631578947368505,Ensemble ponderado,0.6576388859992337
+2024T4,2024-12-31,1,Directores y gerentes,0.3976582348392823,Ensemble ponderado,-0.21278862084886302
+2024T4,2024-12-31,2,Técnicos y profesionales científicos e intelectuales,2.5517178529116924,Ensemble ponderado,-0.054176429827079486
+2024T4,2024-12-31,3,"Técnicos, profesionales de apoyo",-0.3357753357753427,Ensemble ponderado,0.18401644556033864
+2024T4,2024-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.2431192660550542,Ensemble ponderado,0.10536156812264427
+2024T4,2024-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-3.2612710483433,Ensemble ponderado,-0.5286343226021125
+2024T4,2024-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",5.346820809248552,Ensemble ponderado,-0.1666013404328737
+2024T4,2024-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),0.4341595009273194,Ensemble ponderado,-0.09937657169418372
+2024T4,2024-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-0.885503746362015,Ensemble ponderado,-0.149258872520052
+2024T4,2024-12-31,9,Ocupaciones elementales,-2.1460517908820957,Ensemble ponderado,-0.18874293252858543
+2025T1,2025-03-31,0,Ocupaciones militares,6.644880174291949,Ensemble ponderado,0.985215710577557
+2025T1,2025-03-31,1,Directores y gerentes,6.777423258884369,Ensemble ponderado,1.2668824228220568
+2025T1,2025-03-31,2,Técnicos y profesionales científicos e intelectuales,-0.3376877277170492,Ensemble ponderado,1.1085845886190102
+2025T1,2025-03-31,3,"Técnicos, profesionales de apoyo",1.5428790199081233,Ensemble ponderado,1.2148222434988132
+2025T1,2025-03-31,4,"Empleados contables, administrativos y otros empleados de oficina",0.8001103600496664,Ensemble ponderado,1.1936935476242174
+2025T1,2025-03-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.98607492588267,Ensemble ponderado,1.1622564904206927
+2025T1,2025-03-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.2345679012345627,Ensemble ponderado,0.668425624571781
+2025T1,2025-03-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),3.48764007218703,Ensemble ponderado,1.0415676689773044
+2025T1,2025-03-31,8,"Operadores de instalaciones y maquinaria, y montadores",2.4303386230163744,Ensemble ponderado,0.7763258685286891
+2025T1,2025-03-31,9,Ocupaciones elementales,2.093255492395145,Ensemble ponderado,1.075104038425775
+2025T2,2025-06-30,0,Ocupaciones militares,-4.290091930541371,Ensemble ponderado,0.5850743530527454
+2025T2,2025-06-30,1,Directores y gerentes,-2.132921174652246,Ensemble ponderado,1.1171962912797713
+2025T2,2025-06-30,2,Técnicos y profesionales científicos e intelectuales,-1.1903700401248247,Ensemble ponderado,1.3243341610266262
+2025T2,2025-06-30,3,"Técnicos, profesionales de apoyo",-0.3468687554198346,Ensemble ponderado,0.9978475809328382
+2025T2,2025-06-30,4,"Empleados contables, administrativos y otros empleados de oficina",1.1313352493043285,Ensemble ponderado,1.0489844719877732
+2025T2,2025-06-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.3116549717610857,Ensemble ponderado,1.302154439565701
+2025T2,2025-06-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.194444444444447,Ensemble ponderado,0.596311126289686
+2025T2,2025-06-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.2288101224754715,Ensemble ponderado,0.9605134030177156
+2025T2,2025-06-30,8,"Operadores de instalaciones y maquinaria, y montadores",0.8539188777066178,Ensemble ponderado,0.88353015887869
+2025T2,2025-06-30,9,Ocupaciones elementales,1.0872427673902447,Ensemble ponderado,0.5952281594425741
+2025T3,2025-09-30,0,Ocupaciones militares,6.083244397011742,Ensemble ponderado,0.8694191283846715
+2025T3,2025-09-30,1,Directores y gerentes,-1.052853232259423,Ensemble ponderado,0.7459381743292419
+2025T3,2025-09-30,2,Técnicos y profesionales científicos e intelectuales,4.198438839507275,Ensemble ponderado,0.9054236808690281
+2025T3,2025-09-30,3,"Técnicos, profesionales de apoyo",1.5928266051227693,Ensemble ponderado,0.562482455543929
+2025T3,2025-09-30,4,"Empleados contables, administrativos y otros empleados de oficina",-3.807118047724304,Ensemble ponderado,0.030623378282496103
+2025T3,2025-09-30,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.393771225047616,Ensemble ponderado,-0.5471963417056012
+2025T3,2025-09-30,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.9291161956034144,Ensemble ponderado,0.007963724867959987
+2025T3,2025-09-30,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-2.024225005132424,Ensemble ponderado,0.4088529097582633
+2025T3,2025-09-30,8,"Operadores de instalaciones y maquinaria, y montadores",1.8808587843967288,Ensemble ponderado,0.26342266215792454
+2025T3,2025-09-30,9,Ocupaciones elementales,2.9438034983252663,Ensemble ponderado,0.16896207248594597
+2025T4,2025-12-31,0,Ocupaciones militares,2.515090543259557,Ensemble ponderado,-0.3466024242397261
+2025T4,2025-12-31,1,Directores y gerentes,-1.383273036816344,Ensemble ponderado,0.14416173125039133
+2025T4,2025-12-31,2,Técnicos y profesionales científicos e intelectuales,0.3312620434321385,Ensemble ponderado,0.2564713897872053
+2025T4,2025-12-31,3,"Técnicos, profesionales de apoyo",0.9198569938924576,Ensemble ponderado,0.0019850510863822224
+2025T4,2025-12-31,4,"Empleados contables, administrativos y otros empleados de oficina",-0.4783118405627113,Ensemble ponderado,0.1838863384049546
+2025T4,2025-12-31,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",-2.0302953156822965,Ensemble ponderado,-0.5130674615262396
+2025T4,2025-12-31,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",-1.6468435498627605,Ensemble ponderado,-0.1823502378592978
+2025T4,2025-12-31,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),-1.064453943508492,Ensemble ponderado,-0.15335725353451668
+2025T4,2025-12-31,8,"Operadores de instalaciones y maquinaria, y montadores",-2.0598361628873216,Ensemble ponderado,-0.044969513419757426
+2025T4,2025-12-31,9,Ocupaciones elementales,-0.9688731426918668,Ensemble ponderado,-0.26646788400440935

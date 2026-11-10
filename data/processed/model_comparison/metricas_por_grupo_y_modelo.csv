@@ -1,0 +1,81 @@
+modelo,cno_major,cno_title,rmse,mae
+Crecimiento cero,0,Ocupaciones militares,4.386045007684361,3.752139203412165
+Crecimiento cero,1,Directores y gerentes,3.4028388360586863,2.5530828120042495
+Crecimiento cero,2,Técnicos y profesionales científicos e intelectuales,2.3993267090865813,1.9997655162233516
+Crecimiento cero,3,"Técnicos, profesionales de apoyo",1.1528514964852732,0.9418776265997508
+Crecimiento cero,4,"Empleados contables, administrativos y otros empleados de oficina",2.059450976135866,1.6925088950112919
+Crecimiento cero,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",3.213073768667307,3.0897056975566493
+Crecimiento cero,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",2.4744351391910104,1.9479148933320514
+Crecimiento cero,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.8370759107772496,1.529723734345986
+Crecimiento cero,8,"Operadores de instalaciones y maquinaria, y montadores",1.714881500304135,1.6275559589403912
+Crecimiento cero,9,Ocupaciones elementales,2.206003283361742,1.7561796759829897
+Elastic Net,0,Ocupaciones militares,4.601515685929434,4.095529167772589
+Elastic Net,1,Directores y gerentes,3.224622063635011,2.7766738413488854
+Elastic Net,2,Técnicos y profesionales científicos e intelectuales,2.605021586032803,2.2307154494362367
+Elastic Net,3,"Técnicos, profesionales de apoyo",1.0079503998551564,0.7952256467349224
+Elastic Net,4,"Empleados contables, administrativos y otros empleados de oficina",1.8345711223804912,1.4756435519487776
+Elastic Net,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.7579502193410654,2.6518539571063373
+Elastic Net,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",2.5162570574614143,2.1298443242547394
+Elastic Net,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.752871725427561,1.5874892041546307
+Elastic Net,8,"Operadores de instalaciones y maquinaria, y montadores",1.583890174123577,1.4394539321674986
+Elastic Net,9,Ocupaciones elementales,1.7652736726565303,1.46835831510564
+Ensemble ponderado,0,Ocupaciones militares,4.371929399653172,3.985607942814273
+Ensemble ponderado,1,Directores y gerentes,3.1793576956156424,2.6102531581277537
+Ensemble ponderado,2,Técnicos y profesionales científicos e intelectuales,2.4171986527177225,2.080081581550829
+Ensemble ponderado,3,"Técnicos, profesionales de apoyo",0.8636014399210733,0.7718859306059078
+Ensemble ponderado,4,"Empleados contables, administrativos y otros empleados de oficina",1.7648047074353528,1.3031047852564357
+Ensemble ponderado,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.285397864673898,2.1497674895060586
+Ensemble ponderado,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",2.5139473610048757,2.0763779125791304
+Ensemble ponderado,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.7191581039048636,1.5724794540949365
+Ensemble ponderado,8,"Operadores de instalaciones y maquinaria, y montadores",1.525993124982417,1.3772532930598689
+Ensemble ponderado,9,Ocupaciones elementales,1.8044300001558986,1.505605404445995
+Gradient Boosting,0,Ocupaciones militares,4.3629553969982515,4.085230930662837
+Gradient Boosting,1,Directores y gerentes,3.1584511642878508,2.5227461402663476
+Gradient Boosting,2,Técnicos y profesionales científicos e intelectuales,2.6123890096590126,2.2832412681131267
+Gradient Boosting,3,"Técnicos, profesionales de apoyo",0.8998959458839549,0.8167329943295816
+Gradient Boosting,4,"Empleados contables, administrativos y otros empleados de oficina",1.7086766040672583,1.2638369955316016
+Gradient Boosting,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.0320827310452967,1.8464120919173226
+Gradient Boosting,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",2.4784017504448745,2.057211422952151
+Gradient Boosting,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.6943797190456058,1.5448523526352527
+Gradient Boosting,8,"Operadores de instalaciones y maquinaria, y montadores",1.4867617092619634,1.351647996203006
+Gradient Boosting,9,Ocupaciones elementales,1.8396876336261732,1.5157546572163692
+Persistencia trimestral,0,Ocupaciones militares,7.827904797272186,7.131260666246666
+Persistencia trimestral,1,Directores y gerentes,5.3151709366606825,4.586965313095908
+Persistencia trimestral,2,Técnicos y profesionales científicos e intelectuales,3.6462962247595097,3.0495367863214566
+Persistencia trimestral,3,"Técnicos, profesionales de apoyo",1.4613228161251948,1.3355052490152661
+Persistencia trimestral,4,"Empleados contables, administrativos y otros empleados de oficina",2.922905674834329,2.3775674716513606
+Persistencia trimestral,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",4.436276854183009,3.502429303325462
+Persistencia trimestral,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",4.1368884195814735,3.27848531208523
+Persistencia trimestral,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),2.2392484681730345,1.7381697271505483
+Persistencia trimestral,8,"Operadores de instalaciones y maquinaria, y montadores",2.61841529176306,2.2400244518884493
+Persistencia trimestral,9,Ocupaciones elementales,3.786158120689483,3.11210711321378
+Random Forest,0,Ocupaciones militares,4.312844233845525,3.843960108763288
+Random Forest,1,Directores y gerentes,3.1774799169045242,2.5606052451209296
+Random Forest,2,Técnicos y profesionales científicos e intelectuales,2.196331862318594,1.9167952949862426
+Random Forest,3,"Técnicos, profesionales de apoyo",0.8169922911318942,0.7130145878555998
+Random Forest,4,"Empleados contables, administrativos y otros empleados de oficina",1.7761501212304385,1.2381704099255426
+Random Forest,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.12555465374541,1.9072003507133108
+Random Forest,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",2.598251278889572,2.0921853909425003
+Random Forest,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.7366399995473034,1.5822177304802012
+Random Forest,8,"Operadores de instalaciones y maquinaria, y montadores",1.5323367790753994,1.3795080017412538
+Random Forest,9,Ocupaciones elementales,1.8106038672047842,1.5082491283895276
+Regresion lineal,0,Ocupaciones militares,4.710919502190446,4.203125066780559
+Regresion lineal,1,Directores y gerentes,3.033804328581273,2.604985456346823
+Regresion lineal,2,Técnicos y profesionales científicos e intelectuales,2.953145604292962,2.5373805042482713
+Regresion lineal,3,"Técnicos, profesionales de apoyo",1.770167306850996,1.5344146652721773
+Regresion lineal,4,"Empleados contables, administrativos y otros empleados de oficina",1.6199710381014116,1.2716257016095607
+Regresion lineal,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.566814650264468,2.4711640577369267
+Regresion lineal,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",3.0423409834637907,2.869157790040499
+Regresion lineal,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.6796793627150128,1.5380414114270544
+Regresion lineal,8,"Operadores de instalaciones y maquinaria, y montadores",1.4047051247914768,1.2593930423369724
+Regresion lineal,9,Ocupaciones elementales,1.6803833293783692,1.316518082560599
+Ridge,0,Ocupaciones militares,4.537252763773206,4.030028443646959
+Ridge,1,Directores y gerentes,3.22676128135052,2.7505943409936036
+Ridge,2,Técnicos y profesionales científicos e intelectuales,2.53842103601282,2.154291967570227
+Ridge,3,"Técnicos, profesionales de apoyo",0.9629940127696952,0.7868399120937232
+Ridge,4,"Empleados contables, administrativos y otros empleados de oficina",1.8529264964008774,1.4683298666861466
+Ridge,5,"Trabajadores de los servicios de restauración, personales, protección y vendedores",2.807254465201528,2.7088770076892477
+Ridge,6,"Trabajadores cualificados en el sector agrícola, ganadero, forestal y pesquero",2.4841172545125296,2.079623851462868
+Ridge,7,Artesanos y trabajadores cualificados de las industrias manufactureras y la construcción (excepto operadores de instalaciones y maquinaria),1.749020497939924,1.5906018385766298
+Ridge,8,"Operadores de instalaciones y maquinaria, y montadores",1.5935337733816108,1.4502632733856418
+Ridge,9,Ocupaciones elementales,1.8026827677839574,1.4925375412184898

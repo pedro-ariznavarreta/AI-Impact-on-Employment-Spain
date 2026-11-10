@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TFM - EDA del mercado laboral y exposición a la IA</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">TFM · Analisis exploratorio</p>
+        <h1>EDA del mercado laboral y exposición ocupacional a la IA</h1>
+      </div>
+      <div class="status-block">
+        <span id="dataStatus">Cargando datos...</span>
+        <strong id="latestPeriod">-</strong>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Filtros del dashboard">
+        <label>
+          Periodo
+          <select id="periodSelect"></select>
+        </label>
+        <label>
+          Categoria IA
+          <select id="exposureSelect">
+            <option value="all">Todas</option>
+            <option value="alta">Alta</option>
+            <option value="media">Media</option>
+            <option value="baja">Baja</option>
+            <option value="sin_categoria">Sin categoria</option>
+          </select>
+        </label>
+        <label>
+          Desde
+          <select id="startYearSelect"></select>
+        </label>
+        <label class="search-label">
+          Buscar ocupacion
+          <input id="searchInput" type="search" placeholder="Ej. tecnicos, administrativos..." />
+        </label>
+      </section>
+
+      <section class="legend-panel" aria-label="Leyenda de categorias y colores">
+        <div class="panel-title">
+          <h2>Como leer los colores</h2>
+          <span>guia rapida del dashboard</span>
+        </div>
+        <div class="legend-grid">
+          <article class="legend-item">
+            <div class="legend-chip">
+              <span class="legend-dot alta"></span>
+              <strong>Verde = exposicion alta</strong>
+            </div>
+            <p>
+              Indica ocupaciones con mayor exposicion potencial a IA segun la proxy utilizada.
+              No significa sustitucion automatica del empleo, sino mayor probabilidad de cambio en tareas.
+            </p>
+          </article>
+          <article class="legend-item">
+            <div class="legend-chip">
+              <span class="legend-dot media"></span>
+              <strong>Azul = exposicion media</strong>
+            </div>
+            <p>
+              Representa ocupaciones con una exposicion intermedia. Puede haber impacto relevante,
+              pero menos concentrado que en los grupos de exposicion alta.
+            </p>
+          </article>
+          <article class="legend-item">
+            <div class="legend-chip">
+              <span class="legend-dot baja"></span>
+              <strong>Rojo = exposicion baja</strong>
+            </div>
+            <p>
+              Corresponde a ocupaciones con menor exposicion relativa a IA en esta aproximacion.
+              Eso no implica ausencia total de cambios tecnologicos, sino menor intensidad esperada.
+            </p>
+          </article>
+          <article class="legend-item">
+            <div class="legend-chip">
+              <span class="legend-dot sin-categoria"></span>
+              <strong>Gris = sin categoria</strong>
+            </div>
+            <p>
+              Se usa cuando el cruce de datos no permite asignar una categoria clara de exposicion.
+              Conviene interpretar estos casos con mas cautela.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="kpi-grid" aria-label="Indicadores principales">
+        <article class="kpi">
+          <span>Empleo total</span>
+          <strong id="kpiEmployment">-</strong>
+          <small>miles de personas</small>
+        </article>
+        <article class="kpi">
+          <span>Crecimiento interanual medio</span>
+          <strong id="kpiGrowth">-</strong>
+          <small>media simple entre grupos filtrados</small>
+        </article>
+        <article class="kpi">
+          <span>Ocupaciones</span>
+          <strong id="kpiOccupations">-</strong>
+          <small>grandes grupos CNO-11</small>
+        </article>
+        <article class="kpi">
+          <span>Exposicion media a modelos de lenguaje</span>
+          <strong id="kpiExposure">-</strong>
+          <small>media simple del percentil proxy CNO-SOC</small>
+        </article>
+        <article class="kpi">
+          <span>Variacion trimestral media</span>
+          <strong id="kpiQuarterlyGrowth">-</strong>
+          <small>media simple entre grupos filtrados</small>
+        </article>
+        <article class="kpi">
+          <span>Exposicion media Anthropic</span>
+          <strong id="kpiAnthropic">-</strong>
+          <small>observed exposure proxy</small>
+        </article>
+      </section>
+
+      <section class="dashboard-grid">
+        <article class="panel">
+          <div class="panel-title">
+            <h2>Resumen del filtro activo</h2>
+            <span>contexto de la seleccion</span>
+          </div>
+          <div id="filterSummary" class="summary-grid" aria-label="Resumen detallado del filtro"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-title">
+            <h2>Composicion por categoria IA</h2>
+            <span>peso sobre el empleo filtrado</span>
+          </div>
+          <div id="categoryBreakdown" class="chart" role="img" aria-label="Distribucion del empleo por categoria de exposicion a IA"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-title">
+            <h2>Empleo por grupo ocupacional</h2>
+            <span id="barSubtitle"></span>
+          </div>
+          <div id="employmentBar" class="chart" role="img" aria-label="Grafico de barras de empleo por ocupacion"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-title">
+            <h2>Exposicion proxy a IA</h2>
+            <span>AIOE language modeling</span>
+          </div>
+          <div id="exposureRanking" class="chart" role="img" aria-label="Ranking de exposicion a IA"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-title">
+            <h2>Crecimiento vs exposicion</h2>
+            <span>crecimiento interanual</span>
+          </div>
+          <div id="scatterPlot" class="chart" role="img" aria-label="Grafico de dispersion crecimiento y exposicion"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-title">
+            <h2>Evolucion del empleo por categoria IA</h2>
+            <span>indice base 100 desde el ano seleccionado</span>
+          </div>
+          <div id="trendChart" class="chart chart-tall" role="img" aria-label="Grafico de lineas de evolucion del empleo"></div>
+        </article>
+      </section>
+
+      <section class="table-section">
+        <div class="panel-title">
+          <h2>Tabla de trabajo</h2>
+          <span id="tableCount"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Periodo</th>
+                <th>CNO</th>
+                <th>Ocupacion</th>
+                <th>Empleo</th>
+                <th>Var. trimestral</th>
+                <th>Var. interanual</th>
+                <th>Categoria IA</th>
+                <th>SOC major</th>
+                <th>AIOE proxy</th>
+                <th>Percentil AIOE</th>
+                <th>Percentil LM</th>
+                <th>Percentil Anthropic</th>
+              </tr>
+            </thead>
+            <tbody id="dataTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="notes">
+        <h2>Notas metodologicas</h2>
+        <p>
+          Este dashboard se limita al análisis exploratorio de datos históricos. El cruce entre
+          CNO-11 e indicadores de IA es una proxy agregada CNO-SOC: exposición no equivale a
+          automatización, pérdida de empleo ni causalidad. La comparación de modelos y las
+          predicciones se presentan exclusivamente en Power BI.
+        </p>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

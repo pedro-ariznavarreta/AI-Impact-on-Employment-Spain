@@ -1,0 +1,35 @@
+modelo,parametros,rmse_validacion
+Regresion lineal,{},2.8647454126272245
+Ridge,"{""alpha"": 0.01}",2.860242213534136
+Ridge,"{""alpha"": 0.1}",2.8267237066134547
+Ridge,"{""alpha"": 1}",2.731433552578923
+Ridge,"{""alpha"": 10}",2.715268184629943
+Ridge,"{""alpha"": 100}",2.6945435122852595
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.25}",2.8616979776265556
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.5}",2.8625916418950275
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.75}",2.8634914002745564
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.25}",2.835916430598253
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.5}",2.843573994026406
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.75}",2.8516672126673
+Elastic Net,"{""alpha"": 1, ""l1_ratio"": 0.25}",2.7376548491773027
+Elastic Net,"{""alpha"": 1, ""l1_ratio"": 0.5}",2.74883339350803
+Elastic Net,"{""alpha"": 1, ""l1_ratio"": 0.75}",2.769568684323826
+Elastic Net,"{""alpha"": 10, ""l1_ratio"": 0.25}",2.714186997704869
+Elastic Net,"{""alpha"": 10, ""l1_ratio"": 0.5}",2.712470864072996
+Elastic Net,"{""alpha"": 10, ""l1_ratio"": 0.75}",2.709253342701042
+Random Forest,"{""n_trees"": 80, ""max_depth"": 3, ""min_leaf"": 8, ""max_features"": 5}",2.6439475075833543
+Random Forest,"{""n_trees"": 80, ""max_depth"": 3, ""min_leaf"": 8, ""max_features"": 10}",2.6600868894582987
+Random Forest,"{""n_trees"": 80, ""max_depth"": 3, ""min_leaf"": 15, ""max_features"": 5}",2.6874945016146854
+Random Forest,"{""n_trees"": 80, ""max_depth"": 3, ""min_leaf"": 15, ""max_features"": 10}",2.5795750019923953
+Random Forest,"{""n_trees"": 80, ""max_depth"": 5, ""min_leaf"": 8, ""max_features"": 5}",2.568913722074517
+Random Forest,"{""n_trees"": 80, ""max_depth"": 5, ""min_leaf"": 8, ""max_features"": 10}",2.5897146819150434
+Random Forest,"{""n_trees"": 80, ""max_depth"": 5, ""min_leaf"": 15, ""max_features"": 5}",2.6049542760114703
+Random Forest,"{""n_trees"": 80, ""max_depth"": 5, ""min_leaf"": 15, ""max_features"": 10}",2.58194027815851
+Gradient Boosting,"{""n_estimators"": 50, ""learning_rate"": 0.03, ""max_depth"": 1, ""min_leaf"": 12}",2.7471177423761866
+Gradient Boosting,"{""n_estimators"": 50, ""learning_rate"": 0.03, ""max_depth"": 2, ""min_leaf"": 12}",2.6355300873190166
+Gradient Boosting,"{""n_estimators"": 50, ""learning_rate"": 0.07, ""max_depth"": 1, ""min_leaf"": 12}",2.720972186670665
+Gradient Boosting,"{""n_estimators"": 50, ""learning_rate"": 0.07, ""max_depth"": 2, ""min_leaf"": 12}",2.572325159293409
+Gradient Boosting,"{""n_estimators"": 100, ""learning_rate"": 0.03, ""max_depth"": 1, ""min_leaf"": 12}",2.7263072955773984
+Gradient Boosting,"{""n_estimators"": 100, ""learning_rate"": 0.03, ""max_depth"": 2, ""min_leaf"": 12}",2.6002172156329424
+Gradient Boosting,"{""n_estimators"": 100, ""learning_rate"": 0.07, ""max_depth"": 1, ""min_leaf"": 12}",2.6996589967523446
+Gradient Boosting,"{""n_estimators"": 100, ""learning_rate"": 0.07, ""max_depth"": 2, ""min_leaf"": 12}",2.6145352140052283
